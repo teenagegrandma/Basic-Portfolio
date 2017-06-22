@@ -1,0 +1,200 @@
+<!DOCTYPE>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Info</title>
+	
+	<style>
+		body {
+		  font-size: 24px;
+		  background-image: url("file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/assets/images/ep_naturalwhite.png");
+		}
+
+		section {
+		  padding: 20px;
+		  margin-bottom: 20px;
+		  background: white;
+		}
+
+		#name {
+		  width: 25%;
+		  color: white;
+		  padding: 17px;
+		  background: #4aaaa5;
+		  text-align: center;
+		  font-family: Georgia;
+		  margin-left: 100px;
+		  position: fixed;
+		}
+
+		h2 {
+		  color: #4aaaa5;
+		  margin-top: 0px;
+		  font-family: Georgia;
+		}
+
+		#links {
+		  width: 100%;
+		  color: black;
+		  background: white;
+		  text-align: right;
+		  margin-top: 0px;
+		  padding: 4px;
+		  z-index: -1;
+		  font-size: 17px;
+		  position: relative;
+		  text-decoration: none;
+		  border-bottom-width: 3px;
+		  border-bottom-color: #cccccc;
+		  border-bottom-style: solid;
+		}
+
+		#imgpara {
+		  width: 50%;
+		  overflow: auto;
+		  background: white;
+		  text-align: left;
+		  font-family: Helvetica;
+		  font-size: 15px;
+		  margin-left: 100px;
+		  margin-right: 210px;
+		}
+
+		footer {
+		  padding: 20px;
+		  background: #666666;
+		  text-align: center;
+		  font-size: 12px;
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  height: 20px;
+		  border-top-style: solid;
+		  border-top-color: #4aaaa5;
+		  border-top-width: 8px;
+		  color: white;
+		}
+
+		p {
+		  font-size: 12px;
+		  text-indent: 20px;
+		  font-family: Helvetica;
+		  line-height: 25px;
+		}
+
+		.icon {
+		  float: left;
+		  max-width: 30px;
+		}
+
+		img {
+		  max-width: 150px;
+		  float: left;
+		  display: inline-block;
+		  margin: 10px 20px;
+		}
+
+		#Connect {
+		  background-color: white;
+		  float: right;
+		  max-width: 270px;
+		  margin-right: 20px;
+		  position: relative;
+		  text-align: center;
+		  font-family: Georgia;
+		  font-size: 20px;
+		  color: #4aaaa5;
+		}
+
+		#navigation li {
+		  margin: 0;
+		  padding: 0;
+		}
+
+		#navigation li {
+		  list-style-type: none;
+		  list-style: none;
+		  display: inline;
+		}
+
+		#navigation li:not(:first-child):before {
+		  content: " | ";
+		}
+
+		form {
+			font-size: 20px;
+			font-family: Georgia;
+			color: #4aaaa5;
+		}
+
+		.button {
+			background-color: #4aaaa5;
+			color: white;
+			border: none;
+			padding: 15px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 15px;
+			font-family: Georgia;
+		}
+
+		#messagefield {
+			width: 400px;
+			height: 50px;
+			padding: 60px;
+		}
+
+	</style>
+	<!-- Doesn't link up correctly <link rel="stylesheet" type="text/css" href="style.css">-->
+</head>
+
+<body>
+
+	<section id="name"><strong>Rebecca Preston</strong></section>
+
+	<section id="links">
+	<div>
+	<ul id="navigation">
+		<li><a href="file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/index.html" target="_blank" style="text-decoration: none">About</a></li>
+		<li><a href="file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/portfolio.html" target="_blank" style="text-decoration: none">Portfolio</a></li>
+		<li><a href="file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/contact.html" target="_blank" style="text-decoration: none">Contact</a></li>
+	</ul>
+	</div>
+	</section>
+
+	<section id=Connect>
+		<div id="iconconnect">
+			<strong>Connect with Me</strong>
+		</div>
+		<hr>
+			<img class="icon" src="http://www.andrewhay.ca/wp-content/uploads/2014/08/github-8-xxl.png">
+			<img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTUUJzBzpEOP1oMhT_yHSL8HqaiW7TY_S-2m5kt72D35ATdCcM">
+			<img class="icon" src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">
+	</section>
+
+	<section id="imgpara">
+	<h2><strong>Contact</strong></h2>
+	<hr>
+	<br>
+	<br>
+
+	<form>
+		Name<br>
+		<input type="text" name="name"><br>
+		Email<br>
+		<input type="text" name="email"><br>
+		Message<br>
+		<input id="messagefield" type="text" name="message">
+		<br>
+		<input class="button" type="Submit" value="Submit">
+	</form>
+	</section>
+
+	<footer>
+		Copyright 2017 Rebecca Preston
+	</footer>
+
+</body>
+</html>

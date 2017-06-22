@@ -1,0 +1,171 @@
+<!-- STUDENTS: Head to float.css for your assignment -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rebecca Preston's Portfolio</title>
+  <style>
+
+    body {
+      font-size: 24px;
+      background-image: url("file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/assets/images/ep_naturalwhite.png");
+    }
+
+    section {
+      padding: 20px;
+      margin-bottom: 20px;
+      background: white;
+    }
+
+    #name {
+      width: 25%;
+      color: white;
+      padding: 17px;
+      background: #4aaaa5;
+      text-align: center;
+      font-family: Georgia;
+      margin-left: 100px;
+      position: fixed;
+    }
+
+    h2 {
+      color: #4aaaa5;
+      margin-top: 0px;
+      font-family: Georgia;
+    }
+
+    #links {
+      width: 100%;
+      color: black;
+      background: white;
+      text-align: right;
+      margin-top: 0px;
+      padding: 4px;
+      z-index: -1;
+      font-size: 17px;
+      position: relative;
+      text-decoration: none;
+      border-bottom-width: 3px;
+      border-bottom-color: #cccccc;
+      border-bottom-style: solid;
+    }
+
+    #imgpara {
+      width: 50%;
+      overflow: auto;
+      background: white;
+      text-align: left;
+      font-family: Helvetica;
+      font-size: 15px;
+      margin-left: 100px;
+      margin-right: 210px;
+    }
+
+    footer {
+      padding: 20px;
+      background: #666666;
+      text-align: center;
+      font-size: 12px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      border-top-style: solid;
+      border-top-color: #4aaaa5;
+      border-top-width: 8px;
+      color: white;
+    }
+
+    p {
+      font-size: 12px;
+      text-indent: 20px;
+      font-family: Helvetica;
+      line-height: 25px;
+    }
+
+    .icon {
+      float: left;
+      max-width: 30px;
+    }
+
+    img {
+      max-width: 150px;
+      float: left;
+      display: inline-block;
+      margin: 10px 20px;
+    }
+
+    #Connect {
+      background-color: white;
+      float: right;
+      max-width: 270px;
+      margin-right: 20px;
+      position: relative;
+      text-align: center;
+      font-family: Georgia;
+      font-size: 20px;
+      color: #4aaaa5;
+    }
+
+    #navigation li {
+      margin: 0;
+      padding: 0;
+    }
+
+    #navigation li {
+      list-style-type: none;
+      list-style: none;
+      display: inline;
+    }
+
+    #navigation li:not(:first-child):before {
+      content: " | ";
+    }
+
+  </style>
+  <!-- for some reason my style.css would not link up correctly, I think it was a problem from when the files were created <link href="style.css" rel="stylesheet" type="text/css">-->
+</head>
+
+<body>
+
+  <section id="name"><strong>Rebecca Preston</strong>
+  </section>
+
+  <section id="links">
+  <div>
+  <ul id="navigation">
+    <li><a href="file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/index.html" target="_blank" style="text-decoration: none">About</a></li>
+    <li><a href="file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/portfolio.html" target="_blank" style="text-decoration: none">Portfolio</a></li>
+    <li><a href="file:///Users/rebecca/Desktop/code/GitHub/Basic-Portfolio/contact.html" target="_blank" style="text-decoration: none">Contact</a></li>
+  </ul>
+  </div>
+  </section>
+
+  <section id=Connect>  
+    <div id="iconconnect">
+      <strong>Connect with Me</strong>
+    </div>
+    <hr>
+      <img class="icon" src="http://www.andrewhay.ca/wp-content/uploads/2014/08/github-8-xxl.png">
+      <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTUUJzBzpEOP1oMhT_yHSL8HqaiW7TY_S-2m5kt72D35ATdCcM">
+      <img class="icon" src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">
+  </section>
+
+  <section id="imgpara">
+    <h2><strong>About Me</strong></h2>
+    <hr>
+    <aside>
+    <img src="https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/10687153_10154809328545512_896595049183211854_n.jpg?oh=ead023ccd7fe1cc0e143144ebb81bc20&oe=59D66762">
+    </aside>
+    <p>I graduated from University of Missouri with a degree in Music and a minor in Russian Studies. I am a classically trained opera singer and violinist, a sommelier-in-training, and an aspiring web developer. I will start school in the Fall at University of Missouri Kansas City. There, I hope to get a masters degree in Computer Science. Ultimately, my hope is to audition and sing professionally while working as a freelance web developer.</p>
+    <p>I originally went to school for Electrical and Computer Engineering. I ultimately changed my major to Music after difficult deliberating following my Sophomore year. I always had an inkling that I would go back to school for Computer Science.</p>
+  </section>
+
+  <footer>
+    Copyright 2017 Rebecca Preston
+  </footer>
+
+</body>
+
+</html>
